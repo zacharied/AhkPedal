@@ -27,7 +27,7 @@ should be a name of a function to call on the respective event.
 
 ### Example
 
-```
+```ahk
 #import <AhkPedal>
 
 pedal := new AhkPedal()
