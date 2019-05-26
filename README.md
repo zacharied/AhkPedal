@@ -8,6 +8,8 @@ Currently, it only supports the [Infinity
 IN-USB-2](http://www.veccorp.com/foot-controls.html) foot pedal. Contributions
 with support for more pedals are welcomed.
 
+Please note that this library currently only works on 64-bit machines!
+
 ## Usage
 
 Place the `AhkPedal.ahk` file in your [library

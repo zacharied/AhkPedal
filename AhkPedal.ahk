@@ -68,7 +68,7 @@ class AhkPedal {
         ridDeviceInfoSize := 32
         pcbSize :=
 
-        DllCall("GetRawInputData", "Ptr", lParam, "UInt", ridInput, "Ptr", 0, "UIntP", pcbSize, "UInt", headerSize, "UInt") ; <<
+        DllCall("GetRawInputData", "Ptr", lParam, "UInt", ridInput, "Ptr", 0, "UIntP", pcbSize, "UInt", headerSize, "UInt")
         VarSetCapacity(buffer, pcbSize)
         DllCall("GetRawInputData", "Ptr", lParam, "UInt", ridInput, "Ptr", &buffer, "UIntP", pcbSize, "UInt", headerSize, "UInt")
 
