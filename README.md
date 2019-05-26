@@ -11,12 +11,13 @@ with support for more pedals are welcomed.
 ## Usage
 
 Place the `AhkPedal.ahk` file in your [library
-directory](https://autohotkey.com/docs/Functions.htm#lib). This brings the
-`AhkPedal` class into scope. When instantiating a new `AhkPedal`, you may use
-the optional parameter `allowRelease` to define whether button release events
-are handled in addition to the normal button press events. By default, it is
-`true`. If you encounter issues like the foot pedal becoming unresponsive if
-you release it too quickly, try setting it to `false`.
+directory](https://autohotkey.com/docs/Functions.htm#lib). Then, include it
+with `#include <AhkPedal>` This brings the `AhkPedal` class into scope. When
+instantiating a new `AhkPedal`, you may use the optional parameter
+`allowRelease` to define whether button release events are handled in
+addition to the normal button press events. By default, it is `true`. If you
+encounter issues like the foot pedal becoming unresponsive if you release it
+too quickly after a press, try setting it to `false`.
 
 After creating the `AhkPedal`, you may use its method `SetHandler` to
 register a new pedal handler. Its first argument is the (zero-based) index of
