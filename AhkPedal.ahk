@@ -1,8 +1,9 @@
 ﻿; Facility for scripting foot pedals.
-; Usage: #Include this file and then set the AhkPedal_PedalHandler variable.
 
-; This script was adapted from http://musingsfromtheunderground.blogspot.com/2011/05/dream-autohotkey-powered-foot-pedal-for.html
-; with the modifications for 64-bit coming from https://autohotkey.com/board/topic/91506-broken-dllcall-to-registerrawinputdevices/
+; This library was adapted from a script at
+; http://musingsfromtheunderground.blogspot.com/2011/05/dream-autohotkey-powered-foot-pedal-for.html
+; with the modifications for 64-bit coming from 
+; https://autohotkey.com/board/topic/91506-broken-dllcall-to-registerrawinputdevices/
 
 class AhkPedal {
     class Handler {
