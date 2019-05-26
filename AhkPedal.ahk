@@ -26,6 +26,8 @@ class AhkPedal {
     }
 
     SetHandler(i, onPress:="", onRelease:="") {
+        if (not onPress and not onRelease)
+            throw "neither onPress nor onRelease set when calling SetHandler"
         if (onPress)
             this.Handlers[i, 0] := onPress
         if (onRelease)
